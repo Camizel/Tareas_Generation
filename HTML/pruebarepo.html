@@ -1,0 +1,58 @@
+<!-- Ejercicio libre: 
+-Realiza un formulario básico utilizando las etiquetas abordadas en la clase de hoy.
+-Considera al menos tener 5 input de diferentes tipos dentro de tu form 
+-Si puedes intenta agregar el evento preventDefault() para evitar el comportamiento por defecto del formulario . -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <h1>Formularios</h1>
+    <form action="" id="form">
+        <label for="nombre">Nombre</label>
+      <input type="nombre" name="nombre" placeholder="nombre"/>
+      <br />
+      <br />
+      <label for="apellido">Apellido</label>
+      <input type="apellido" name="apellido" placeholder="apellido" />
+      <br>
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="email">
+      <br>
+      <br> <label for="check">Click en el cuadrado</label>
+      <input type="checkbox" name="check" />
+      <br />
+      <h3>Cual es tu favorito?</h3>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
+      <label for="javascript">JavaScript</label>
+      <br>
+        <br>
+        <label for="price">Que tanto te gusta programar? </label>
+        <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
+        <br>
+        <br>
+      <fieldset>
+        <legend>Selecciona tu genero</legend>
+        <input type='checkbox' name='genero' value='femenino' > femenino
+        <input type='checkbox' name='genero' value='masculino' > masculino
+        <input type='checkbox' name='genero' value='otro' > otro
+       </fieldset>
+       <br>
+       <input type="submit" name="enviarForm" id="enviarForm" value="Enviar formulario">
+    </form>
+
+
+</body>
+<script src="app.js"></script>
+</html>
