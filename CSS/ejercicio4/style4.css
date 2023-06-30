@@ -1,0 +1,35 @@
+body{
+    background-color: #b92e34;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #800000;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    padding: 20px;
+}
+
+.section_parrafo.section_titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 5%;
+    max-width: 50%
+}
+
+.card_info{
+    margin: 20px;
+}
